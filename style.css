@@ -100,3 +100,19 @@ nav h1{
     height: 10rem;
     object-fit: cover;
 }
+.featured-photos{
+    display: grid;
+    grid-template-columns: 30% 30% 30%;
+    column-gap: 2%;
+    row-gap: 1%;
+    margin-top: 2rem;
+    padding: 3rem 2%;
+    justify-content: center;
+    box-shadow: 0px -1px 1px rgba(3, 7, 18, 0.05),
+    0px -4px 4px rgba(3, 7, 18, 0.11),
+    0px -8px 9px rgba(3, 7, 18, 0.17),
+    0px -14px 15px rgba(3, 7, 18, 0.22);
+}
+.featured-photos img{
+    width: 100%;
+}
