@@ -1,0 +1,24 @@
+{
+  "name": "showcaseart",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yassershahofficial/ChowCaseArt.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/yassershahofficial/ChowCaseArt/issues"
+  },
+  "homepage": "https://github.com/yassershahofficial/ChowCaseArt#readme",
+  "dependencies": {
+    "express": "^4.19.2"
+  }
+}
