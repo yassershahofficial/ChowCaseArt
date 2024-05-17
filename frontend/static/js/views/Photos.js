@@ -11,6 +11,7 @@ export default class extends AbstractView{
     //async -> promise return value || the value is template html
     async getHtml(){
         return `
+        <i class="fi fi-rr-add-image"></i>
         <div class="featured-photos" id="featured-photos">
             <img class="potrait" src="https://i.pinimg.com/474x/af/02/ef/af02ef78c64ce3e8c494c6a4a1d514d6.jpg">
             <img class="landscape" src="https://media.greatbigphotographyworld.com/wp-content/uploads/2022/04/leading-lines.jpg">

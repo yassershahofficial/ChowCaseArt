@@ -8,7 +8,8 @@ html, body{
     --white: #fafafa;
     --black: #313131;
     --red: #db1414;
-    
+    -ms-overflow-style: none;  /* Internet Explorer 10+ */
+    scrollbar-width: none;  /* Firefox */
 }
 a{
     text-decoration: none;
@@ -148,4 +149,45 @@ nav h1{
     position: fixed;
     z-index: -1;
     visibility: hidden;
+}
+.fi-rr-add-image,.fi-rr-user-pen{
+    position: fixed;
+    bottom: 3rem;
+    right: 3rem;
+    font-size: 3rem;
+    padding: 1rem 1rem 0.2rem 1rem;
+    background-color: var(--white);
+    border-radius: 10px;
+    cursor: pointer;
+    box-shadow: 0px 0px 3px rgba(3, 7, 18, 0.14),
+    0px 0px 13px rgba(3, 7, 18, 0.12),
+    0px 0px 30px rgba(3, 7, 18, 0.09),
+    0px 0px 54px rgba(3, 7, 18, 0.07),
+    0px 0px 84px rgba(3, 7, 18, 0.05),
+    0px 0px 121px rgba(3, 7, 18, 0.02);
+    opacity: 0.8;
+}
+.fi-rr-add-image:hover,.fi-rr-user-pen:hover{
+    opacity: 1;
+}
+.fi-rr-add-image:active,.fi-rr-user-pen:active{
+    opacity: 0.6;
+}
+.content-personal{
+    display: grid;
+    grid-template-rows: 3rem 100%;
+    width: 100%;
+    margin-top: 2rem;
+    line-height: 2rem;
+    margin-bottom: 8rem;
+}
+.content-personal h2{
+    text-align: center;
+    margin-left: -6rem;
+}
+.content-personal-info{
+    display: grid;
+    grid-template-columns: repeat(2,minmax(12rem,15rem));
+    place-content: center;
+    padding: 0 ;
 }
